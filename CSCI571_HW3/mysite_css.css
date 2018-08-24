@@ -1,0 +1,307 @@
+/**css of body*/
+html {
+    height: auto;
+    width: 1190px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 1190px;
+    font-size: .75em;
+    font-family: "helvetica", sans-serif;
+    background-color: white;
+    text-align: center;
+    color: RGB(96, 94, 94);
+    overflow: auto;
+}
+
+/**css of bg image*/
+
+.module {
+    clear: both;
+    width: 1190px;
+}
+
+section.module.parallax {
+
+
+    background-attachment: fixed;
+}
+
+section.module.parallax-2 {
+    height: 825px;
+    background-size: 150% 150%;
+    background-position: -320px 20px;
+    background-image: url("images/image6.jpg");
+    background-repeat: no-repeat;
+}
+
+section.module.parallax-3 {
+    height: 630px;
+    background-position: 0 -150px;
+    background-size: cover;
+    background-image: url("images/image5.jpg");
+    background-repeat: no-repeat;
+}
+
+
+/**css of top texts*/
+
+.top {
+    position: relative;
+    width: 1190px;
+    border-bottom: 1px solid rgba(233, 233, 233, 1);
+    height: 140px;
+    text-align: center;
+    background-color: white;
+}
+
+.top p {
+    width: 9em;
+    margin-left: 155px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.top h1 {
+    margin-top: 0;
+    color: RGB(188, 155, 93);
+    font-size: 3.5em;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+/**css of topbar*/
+
+.topbody {
+    display: inline-block;
+    width: 1190px;
+    height: 45px;
+    background-color: white;
+
+}
+
+
+.toplist {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 45px;
+}
+
+.toplist a {
+    color: RGB(96, 94, 94);
+    text-decoration: none;
+}
+
+.toplist .home {
+    color: RGB(188, 155, 93);
+}
+
+
+/** description of restaurant*/
+
+.description {
+    position: relative;
+    width: 1190px;
+    display: flex;
+    flex-direction: row;
+    height: 1200px;
+    padding-bottom: 40px;
+    background-color: white;
+
+}
+
+.content {
+    width: 39%;
+    padding-top: 35px;
+    color: RGB(96, 94, 94);
+    float: left;
+    text-align: left;
+    padding-right: 0;
+}
+
+.text {
+    float: left;
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+.left_content {
+    padding-left: 10%;
+    padding-right: 1.7%;
+}
+
+.left_img {
+    margin-top: 95px;
+}
+
+.left_img img {
+    margin-bottom: 45px;
+}
+
+.left_text {
+    width: 78%;
+    margin-top: 45px;
+}
+
+.left_text h1 {
+    color: RGB(188, 155, 93);
+    font-family: serif;
+    font-style: italic;
+    margin-top: 0;
+    font-size: 2.7em;
+    font-weight: 600;
+    line-height: .5em;
+    margin-bottom: .6em;
+}
+
+.left_text .p2 {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    width: 260px;
+}
+
+.right_content {
+    padding-right: 10%;
+    padding-left: 1.7%;
+}
+
+.right_content .right_img img {
+    margin-bottom: 40px;
+}
+
+.right_text {
+    width: 66%;
+}
+
+.text .p1 {
+    letter-spacing: 1px;
+    margin-bottom: .7em;
+}
+
+.right_text h1 {
+    color: RGB(188, 155, 93);
+    font-family: serif;
+    font-style: italic;
+    margin-top: 0;
+    font-size: 2.7em;
+    font-weight: 600;
+    line-height: 1.2em;
+    margin-bottom: .4em;
+}
+
+.right_text .p2 {
+    font-size: 1.2em;
+    line-height: 1.5em;
+
+}
+
+.text a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+}
+
+.text a:hover {
+    color: RGB(199, 197, 197);
+}
+
+/**CSS of Order img*/
+
+.order {
+    position: relative;
+    position: relative;
+    background-color: white;
+    width: 1190px;
+    height: 600px;
+    margin: 0;
+    padding: 0 0 38px 0;
+    text-align: center;
+}
+
+.order_img {
+    background: url(images/image7.jpg) no-repeat;
+    width: 930px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.order_img .text {
+
+    width: 390px;
+    height: 140px;
+    background-color: white;
+    text-align: center;
+    margin-left: 270px;
+    margin-top: 230px;
+}
+
+.order_img a {
+    color: RGB(96, 94, 94);
+    font-weight: 500;
+    font-size: 2.7em;
+}
+
+
+.order_img p {
+    letter-spacing: 1px;
+    margin-top: 45px;
+}
+
+/**CSS of bottom text*/
+
+.btm_text {
+    position: relative;
+    width: 1190px;
+    text-align: center;
+    background-color: white;
+    padding: 0;
+    height: 220px;
+}
+
+.btm_text p {
+    padding-bottom: 0px;
+    letter-spacing: 1px;
+}
+
+.btm_text h1 {
+    font-family: serif;
+    font-style: italic;
+    font-size: 3em;
+    color: RGB(188, 155, 93);
+    font-weight: 500;
+    line-height: .3em;
+}
+
+
+/**CSS of copyright*/
+
+.copyright {
+    color: white;
+    position: relative;
+    top: 480px;
+    width: 1190px;
+    height: 215px;
+    background-color: RGB(188, 155, 93);
+}
+
+.copyright p {
+    float: right;
+    padding: 45px 185px 0 0;
+    width: 240px;
+    text-align: left;
+    color: white;
+}
+
+/**CSS of btm space*/
+
+.btm_space {
+    top: 480px;
+    position: relative;
+    height: 40px;
+    width: 1190px;
+    background-color: white;
+}

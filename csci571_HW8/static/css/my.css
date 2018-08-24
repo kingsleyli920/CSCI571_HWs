@@ -1,0 +1,62 @@
+.center-vertical {
+    position:relative;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+label {
+    text-align: left;
+}
+
+#input_form .form-group {
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+
+.clicked_a {
+    background-color: rgb(68, 121, 250);
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+.none_clicked_a {
+    background-color: white;
+    border-radius: 4px;
+    color: rgb(68, 121, 250);
+    cursor: pointer;
+}
+
+.glyphicon-star {
+    color: gold;
+}
+
+.box {
+    margin-bottom: 20px;
+    float: left;
+    width: 220px;
+}
+.box img {
+    max-width: 100%
+}
+
+.yellow_background {
+    background-color: goldenrod;
+}
+
+.slide_from_left.ng-enter {
+    transition: 0.6s linear all;
+    transform: translateX(-1000px);
+}
+
+.slide_from_left.ng-enter.ng-enter-active {
+    transform: translateY(0);
+}
+
+.slide_from_right.ng-enter {
+    transition: 0.6s linear all;
+    transform: translateX(1000px);
+}
+
+.slide_from_right.ng-enter.ng-enter-active {
+    transform: translateY(0);
+}
